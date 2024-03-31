@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1>Change Email</h1>
-    <form action="http://yourwebsite.com/change_email.php" method="post">
-        <input type="hidden" name="email" value="attacker@example.com">
+    <form action="change_email.php" method="post">
+        <label for="email">New Email:</label>
+        <input type="email" id="email" name="email" required>
         <input type="submit" value="Change Email">
     </form>
 </body>
